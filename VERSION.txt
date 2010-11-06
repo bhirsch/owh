@@ -1,0 +1,6 @@
+6.15-0.1.0
+
+6.15 - Drupal version
+0 - Not released publically yet
+1 - First Owh installation profile
+0 - No patches committed yet 
