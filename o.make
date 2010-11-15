@@ -147,7 +147,7 @@ projects[simpletest][subdir] = "developer"
 projects[o_features][type] = "module"
 projects[o_features][download][type] = "git" 
 projects[o_features][download][url] = "git://github.com/bhirsch/o_features.git"
-;; projects[o_features][download][tag] = "X.X"
+projects[o_features][download][tag] = 0.0
 
 ; Custom 
 
@@ -225,40 +225,10 @@ projects[whitehouse_subtheme][url] = "git://github.com/bhirsch/whitehouse_subthe
 
 ; sws.org
 
-projects[ax2][type] = "module"
-projects[ax2][subdir] = "sws.org"
-projects[ax2][download][type] = "git"
-projects[ax2][url] = "git://github.com/bhirsch/ax2.git"
-; projects[ax2][download][tag] = "X.X"
-
-projects[casetracker][type] = "module"
-projects[casetracker][subdir] = "sws.org"
-projects[casetracker][download][type] = "git"
-projects[casetracker][url] = "git://github.com/bhirsch/casetracker.git"
-; projects[casetracker][download][tag] = "X.X"
-
-projects[designs][type] = "module"
-projects[designs][subdir] = "sws.org"
-projects[designs][download][type] = "git"
-projects[designs][url] = "git://github.com/bhirsch/designs.git"
-; projects[designs][download][tag] = "X.X"
-
-projects[pricing][type] = "module"
-projects[pricing][subdir] = "sws.org"
-projects[pricing][download][type] = "git"
-projects[pricing][url] = "git://github.com/bhirsch/pricing.git"
-; projects[pricing][download][tag] = "X.X"
-
-projects[support][type] = "module"
-projects[support][subdir] = "sws.org"
-projects[support][download][type] = "git"
-projects[support][url] = "git://github.com/bhirsch/support.git"
-; projects[support][download][tag] = "X.X"
-
 projects[website][type] = "module"
 projects[website][subdir] = "sws.org"
 projects[website][download][type] = "git"
-projects[website][url] = "git://github.com/bhirsch/website.git"
+projects[website][url] = "git://github.com/bhirsch/sws.org.git"
 ; projects[website][download][tag] = "X.X"
 
 ; Themes
