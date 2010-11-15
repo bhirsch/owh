@@ -4,146 +4,138 @@ core = 6.x
 ; Contrib projects
 
 projects[addthis][subdir] = "contrib"
-; projects[addthis][version] = XXX
+projects[addthis][version] = 6.x-2.9
 
 projects[admin][subdir] = "contrib"
-; projects[admin][version] = X.X
+projects[admin][version] = 6.x-2.0
 
 projects[advanced_help][subdir] = "contrib"
-; projects[advanced_help][version] = X.X
-
-projects[calendar][subdir] = "contrib"
-; projects[calendar][version] = X.X
+projects[advanced_help][version] = 6.x-1.2
 
 projects[cck][subdir] = "contrib"
-; projects[cck][version] = X.X
+projects[cck][version] = 6.x-2.8
 
 projects[ckeditor][subdir] = "contrib"
-; projects[ckeditor][version] = X.X
+projects[ckeditor][version] = 6.x-1.2
 
 projects[context][subdir] = "contrib"
-; projects[context][version] = X.X
+projects[context][version] = 6.x-3.0
 
 projects[crmapi][subdir] = "contrib"
-; projects[crmapi][version] = X.X
+projects[crmapi][version] = 6.x-1.2
 
 projects[crmngp][subdir] = "contrib"
-; projects[crmngp][version] = X.X
+projects[crmngp][version] = 6.x-1.28
 
 projects[ctools][subdir] = "contrib"
-; projects[ctools][version] = X.X
+projects[ctools][version] = 6.x-1.7
 
 projects[date][subdir] = "contrib"
-; projects[date][version] = X.X
-
-projects[designkit][subdir] = "contrib"
-; projects[designkit][version] = X.X
+projects[date][version] = 6.x-2.6
 
 projects[diff][subdir] = "contrib"
-; projects[diff][version] = X.X
+projects[diff][version] = 6.x-2.1
 
 projects[embed_gmap][subdir] = "contrib"
-; projects[embed_gmap][version] = X.X
+projects[embed_gmap][version] = 6.x-1.2
 
 projects[fckeditor][subdir] = "contrib"
-; projects[fckeditor][version] = X.X
+projects[fckeditor][version] = 6.x-1.4
 
 projects[features][subdir] = "contrib"
-; projects[features][version] = X.X
+projects[features][version] = 6.x-1.0
 
 projects[feeds][subdir] = "contrib"
-; projects[feeds][version] = X.X
+projects[feeds][version] = 6.x-1.0-alpha11
 
 projects[filefield][subdir] = "contrib"
-; projects[filefield][version] = X.X
+projects[filefield][version] = 6.x-3.7
 
-projects[google_analytics][subdir] = "contrib"
-; projects[google_analytics][version] = X.X
+projects[googleanalytics][subdir] = "contrib"
+projects[googleanalytics][version] = 6.x-3.0 
 
 projects[i18n][subdir] = "contrib"
-; projects[i18n][version] = X.X
+projects[i18n][version] = 6.x-1.7
 
 projects[imageapi][subdir] = "contrib"
-; projects[imageapi][version] = X.X
+projects[imageapi][version] = 6.x-1.9
 
 projects[imagecache][subdir] = "contrib"
-; projects[imagecache][version] = X.X
+projects[imagecache][version] = 6.x-2.0-beta10
 
 projects[imagefield][subdir] = "contrib"
-; projects[imagefield][version] = X.X
+projects[imagefield][version] = 6.x-3.7
 
 projects[jquery_plugin][subdir] = "contrib"
-; projects[jquery_plugin][version] = X.X
+projects[jquery_plugin][version] = 6.x-1.10
 
 projects[jquery_ui][subdir] = "contrib"
-; projects[jquery_ui][version] = X.X
-
-projects[lightbox2][subdir] = "contrib"
-; projects[lightbox2][version] = X.X
+projects[jquery_ui][version] = 6.x-1.4
 
 projects[mailchimp][subdir] = "contrib"
-; projects[mailchimp][version] = X.X
-
-projects[masquerade][subdir] = "contrib"
-; projects[masquerade][version] = X.X
+projects[mailchimp][version] = 6.x-2.2
 
 projects[nodequeue][subdir] = "contrib"
-; projects[nodequeue][version] = X.X
+projects[nodequeue][version] = 6.x-2.9
 
 projects[pathauto][subdir] = "contrib"
-; projects[pathauto][version] = X.X
+projects[pathauto][version] = 6.x-1.5
 
 projects[role_delegation][subdir] = "contrib"
-; projects[role_delegation][version] = X.X
+projects[role_delegation][version] = 6.x-1.3
 
 projects[rotor][subdir] = "contrib"
-; projects[rotor][version] = X.X
+projects[rotor][version] = 6.x-2.7
 
-projects[seo_checklist][subdir] = "contrib"
-; projects[seo_checklist][version] = X.X
+projects[seochecklist][subdir] = "contrib"
+projects[seochecklist][version] = 6.x-2.1-beta1
 
 projects[strongarm][subdir] = "contrib"
-; projects[strongarm][version] = X.X
+projects[strongarm][version] = 6.x-2.0
 
 projects[submitagain][subdir] = "contrib"
-; projects[submitagain][version] = X.X
+projects[submitagain][version] = 6.x-1.4
 
 projects[taxonomy_manager][subdir] = "contrib"
-; projects[taxonomy_manager][version] = X.X
+projects[taxonomy_manager][version] = 6.x-2.2
 
 projects[text_resize][subdir] = "contrib"
-; projects[text_resize][version] = X.X
+projects[text_resize][version] = 6.x-1.5
 
 projects[token][subdir] = "contrib"
-; projects[token][version] = X.X
+projects[token][version] = 6.x-1.15
 
 projects[upload_element][subdir] = "contrib"
-; projects[upload_element][version] = X.X
+projects[upload_element][version] = 6.x-1.2
 
 projects[video_filter][subdir] = "contrib"
-; projects[video_filter][version] = X.X
+projects[video_filter][version] = 6.x-2.7
 
 projects[views][subdir] = "contrib"
-; projects[views][version] = X.X
+projects[views][version] = 6.x-2.11
 
 projects[views_bulk_operations][subdir] = "contrib"
-; projects[views_bulk_operations][version] = X.X
+projects[views_bulk_operations][version] = 6.x-1.10
 
 projects[views_slideshow][subdir] = "contrib"
-; projects[views_slideshow][version] = X.X
+projects[views_slideshow][version] = 6.x-2.3
 
 projects[views_slideshow_imageflow][subdir] = "contrib"
-; projects[views_slideshow_imageflow][version] = X.X
+projects[views_slideshow_imageflow][version] = 6.x-2.x-dev
 
 ; Developer
 
 projects[coder][subdir] = "developer"
+; projects[coder][version] = X.X 
 
 projects[devel][subdir] = "developer"
+; projects[devel][version] = X.X
 
 projects[schema][subdir] = "developer"
+; projects[schema][version] = X.X
 
 projects[simpletest][subdir] = "developer"
+; projects[simpletest][version] = X.X"
 
 ; Localization 
 ; l10n
