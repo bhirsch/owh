@@ -87,8 +87,8 @@ projects[role_delegation][version] = 1.3
 projects[rotor][subdir] = "contrib"
 projects[rotor][version] = 2.7
 
-projects[seochecklist][subdir] = "contrib"
-projects[seochecklist][version] = 2.1-beta1
+projects[seo_checklist][subdir] = "contrib"
+projects[seo_checklist][version] = 3.0
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = 2.0
