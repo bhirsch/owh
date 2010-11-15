@@ -4,7 +4,7 @@ core = 6.x
 ; Contrib projects
 
 projects[addthis][subdir] = "contrib"
-projects[addthis][version] = 6.x-2.9
+projects[addthis][version] = 6.x-2.10
 
 projects[admin][subdir] = "contrib"
 projects[admin][version] = 6.x-2.0
