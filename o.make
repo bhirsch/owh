@@ -225,10 +225,10 @@ projects[whitehouse_subtheme][url] = "git://github.com/bhirsch/whitehouse_subthe
 
 ; sws.org
 
-projects[sws.org][type] = "module"
-projects[sws.org][download][type] = "git"
-projects[sws.org][download][url] = "git://github.com/bhirsch/sws.org.git"
-; projects[sws.org][download][tag] = "X.X"
+projects[sws-org][type] = "module"
+projects[sws-org][download][type] = "git"
+projects[sws-org][download][url] = "git://github.com/bhirsch/sws-org.git"
+; projects[sws-org][download][tag] = "X.X"
 
 ; Themes
 ; Libraries
