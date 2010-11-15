@@ -146,8 +146,8 @@ projects[simpletest][subdir] = "developer"
  
 projects[o_features][type] = "module"
 projects[o_features][download][type] = "git" 
-projects[o_features][url] = "git://github.com/bhirsch/o_features.git"
-;; projects[agenda][download][tag] = "X.X"
+projects[o_features][download][url] = "git://github.com/bhirsch/o_features.git"
+;; projects[o_features][download][tag] = "X.X"
 
 ; Custom 
 
