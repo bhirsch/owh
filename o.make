@@ -145,11 +145,10 @@ projects[schema][subdir] = "developer"
 
 projects[simpletest][subdir] = "developer"
 
+; Localization 
 ; l10n
-
-projects[l10n_client][subdir] = "l10n"
-
-projects[l10n_update][subdir] = "l10n"
+; projects[l10n_client][subdir] = "l10n"
+; projects[l10n_update][subdir] = "l10n"
 
 ;; Features
 ;
