@@ -51,8 +51,8 @@ projects[feeds][version] = 1.0-alpha11
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = 3.7
 
-projects[googleanalytics][subdir] = "contrib"
-projects[googleanalytics][version] = 3.0 
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = 3.0 
 
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = 1.7
