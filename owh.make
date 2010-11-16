@@ -144,10 +144,10 @@ projects[simpletest][subdir] = "developer"
 
 ; Features
  
-projects[o_features][type] = "module"
-projects[o_features][download][type] = "git" 
-projects[o_features][download][url] = "git://github.com/bhirsch/o_features.git"
-projects[o_features][download][tag] = 0.0
+projects[owh_features][type] = "module"
+projects[owh_features][download][type] = "git" 
+projects[owh_features][download][url] = "git://github.com/bhirsch/owh_features.git"
+projects[owh_features][download][tag] = 0.0
 
 ; Custom 
 
