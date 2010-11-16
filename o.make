@@ -160,7 +160,7 @@ projects[addthissubtheme][url] = "git://github.com/bhirsch/addthissubtheme.git"
 projects[ax3][type] = "module"
 projects[ax3][subdir] = "custom"
 projects[ax3][download][type] = "git"
-projects[ax3][url] = "git://github.com/bhirsch/ax3.git"
+projects[ax3][download][url] = "git://github.com/bhirsch/ax3.git"
 ; projects[ax3][download][tag] = "X.X"
 
 projects[extra][type] = "module"
