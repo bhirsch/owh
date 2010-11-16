@@ -252,4 +252,16 @@ projects[whitehouse][download][type] = "git"
 projects[whitehouse][download][url] = "git://github.com/bhirsch/whitehouse.git"
 ; projects[whitehouse][download][tag] = "X.X"
 
+projects[candidate][type] = "theme"
+projects[candidate][directory_name] = "candidate"
+projects[candidate][download][type] = "git"
+projects[candidate][download][url] = "git://github.com/bhirsch/candidate.git"
+; projects[candidate][download][tag] = "X.X"
+
+projects[statehouse][type] = "theme"
+projects[statehouse][directory_name] = "statehouse"
+projects[statehouse][download][type] = "git"
+projects[statehouse][download][url] = "git://github.com/bhirsch/statehouse.git"
+; projects[statehouse][download][tag] = "X.X"
+
 ; Libraries
