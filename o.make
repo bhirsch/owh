@@ -246,10 +246,10 @@ projects[tao][type] = "theme"
 projects[zen][version] = 1.1
 projects[zen][type] = "theme"
 
-projects[whitehouse_theme][type] = "theme"
-projects[whitehouse_theme][directory_name] = "whitehouse"
-projects[whitehouse_theme][download][type] = "git"
-projects[whitehouse_theme][url] = "git://github.com/bhirsch/whitehouse_theme.git"
-; projects[whitehouse_theme][download][tag] = "X.X"
+projects[whitehouse][type] = "theme"
+projects[whitehouse][directory_name] = "whitehouse"
+projects[whitehouse][download][type] = "git"
+projects[whitehouse][url] = "git://github.com/bhirsch/whitehouse.git"
+; projects[whitehouse][download][tag] = "X.X"
 
 ; Libraries
