@@ -2,7 +2,7 @@
 // $Id$
 
 /**
- * @file owh.profile, Owh installation profile.
+ * @file owh.profile, Drupal O installation profile.
  * 
  * This file is modeled after Open Atrium's 
  * installation profile (version 1.0-beta6).
@@ -13,8 +13,8 @@
  */
 function o_profile_details() {
   return array(
-    'name' => 'Owh',
-    'description' => 'Owh by Stars with Stripes, '
+    'name' => 'Drupal O',
+    'description' => 'Drupal O by StarsWithStripes.Org, '
                     .'originally modeled after the '
                     .'Obama White House website '
                     .'(whitehouse.gov, 2010).',
@@ -146,12 +146,12 @@ function _owh_modules() {
      * and see if it's practical to build the fix into the theme. 
      */
     'text_resize', 
-    // Stars with Stripes
+    // StarsWithStripes.Org
     'sws', 'sws_fields', 'sws_mgmt',
     'subtheme', 'whitehouse_subtheme',
     'related_posts', 'addthissubtheme','user1',
     'ax3','permission',
-    // Owh features
+    // Drupal O features
     'button_block', 'events', 'footer_navigation', 'front_page',
     'issues', 'news_clips', 'page', 'press_releases', 
     'sws_admin', 'twitter_feed', 
@@ -168,8 +168,8 @@ function o_profile_task_list() {
     $tasks['owh-translation-batch'] = st('Download and import translation');
   }
   // */
-  $tasks['owh-modules-batch'] = st('Install Owh modules');
-  $tasks['owh-configure-batch'] = st('Configure Owh');
+  $tasks['owh-modules-batch'] = st('Install Drupal O modules');
+  $tasks['owh-configure-batch'] = st('Configure Drupal O');
   return $tasks;
 }
 
@@ -718,7 +718,7 @@ function system_form_install_select_locale_form_alter(&$form, $form_state) {
  * Alter the install profile configuration form and provide timezone location options.
  */
 function system_form_install_configure_form_alter(&$form, $form_state) {
-  $form['site_information']['site_name']['#default_value'] = 'Owh';
+  $form['site_information']['site_name']['#default_value'] = 'Drupal O';
   $form['site_information']['site_mail']['#default_value'] = 'admin@'. $_SERVER['HTTP_HOST'];
   $form['admin_account']['account']['name']['#default_value'] = 'superuser'; // @TODO does this work? 
   $form['admin_account']['account']['mail']['#default_value'] = 'admin@'. $_SERVER['HTTP_HOST'];
