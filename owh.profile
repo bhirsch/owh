@@ -11,7 +11,7 @@
 /**
  * Implementation of hook_profile_details().
  */
-function o_profile_details() {
+function owh_profile_details() {
   return array(
     'name' => 'Drupal O',
     'description' => 'Drupal O by StarsWithStripes.Org, '
@@ -24,7 +24,7 @@ function o_profile_details() {
 /**
  * Implementation of hook_profile_modules().
  */
-function o_profile_modules() {
+function owh_profile_modules() {
   $modules = array(
      // Drupal core
     'block',
@@ -162,7 +162,7 @@ function _owh_modules() {
 /**
  * Implementation of hook_profile_task_list().
  */
-function o_profile_task_list() {
+function owh_profile_task_list() {
   /* @TODO translation
   if (_owh_language_selected()) {
     $tasks['owh-translation-batch'] = st('Download and import translation');
@@ -176,7 +176,7 @@ function o_profile_task_list() {
 /**
  * Implementation of hook_profile_tasks().
  */
-function o_profile_tasks(&$task, $url) {
+function owh_profile_tasks(&$task, $url) {
   global $profile, $install_locale;
   
   // Just in case some of the future tasks adds some output

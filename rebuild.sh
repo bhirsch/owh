@@ -7,7 +7,7 @@
 # Original script by Jeff Miccolis for Open Atrium.
 #
 
-if [ -f o.make ]; then
+if [ -f owh.make ]; then
   echo -e "\nThis command can be used to run o.make in place, or to generate"
   echo -e "a complete distribution of Drupal O.\n\nWhich would you like?"
   echo "  [1] Rebuild Drupal O in place (overwrites any changes!)."
@@ -33,9 +33,9 @@ api = 2\n
 projects[pressflow][type] = "core"
 projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92/+download/pressflow-6.19.92.tar.gz"
 projects[pressflow][download][type] = "get"
-projects[o][type] = "profile"\n
-projects[o][download][type] = "git"\n
-projects[o][download][url] = "git://github.com/bhirsch/o.git"\n
+projects[owh][type] = "profile"\n
+projects[owh][download][type] = "git"\n
+projects[owh][download][url] = "git://github.com/bhirsch/owh.git"\n
 EOF
 )
 
