@@ -249,7 +249,7 @@ projects[zen][type] = "theme"
 projects[whitehouse][type] = "theme"
 projects[whitehouse][directory_name] = "whitehouse"
 projects[whitehouse][download][type] = "git"
-projects[whitehouse][url] = "git://github.com/bhirsch/whitehouse.git"
+projects[whitehouse][download][url] = "git://github.com/bhirsch/whitehouse.git"
 ; projects[whitehouse][download][tag] = "X.X"
 
 ; Libraries
