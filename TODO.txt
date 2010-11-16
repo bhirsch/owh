@@ -4,3 +4,4 @@ Troubleshoot: Something funny is happening with imageflow. All teh files except 
 move TAXONOMY.txt handling into features modules
 revisit whether make file should use "get"/"http://..." instead of "git"/"git://..."
 
+rebuild.sh option [2], generate a distro
