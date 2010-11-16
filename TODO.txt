@@ -1,0 +1,6 @@
+move imageflow's "plugins" directory to "libraries" and update strongarm 
+Troubleshoot: Something funny is happening with imageflow. All teh files except the images are getting blown away.
+
+move TAXONOMY.txt handling into features modules
+revisit whether make file should use "get"/"http://..." instead of "git"/"git://..."
+
