@@ -265,3 +265,8 @@ projects[statehouse][download][url] = "git://github.com/bhirsch/statehouse.git"
 ; projects[statehouse][download][tag] = "X.X"
 
 ; Libraries
+
+libraries[imageflow][download][type] = "get"
+libraries[imageflow][download][url] = "http://finnrudolph.de/content/ImageFlow_1.3.0.zip"
+libraries[imageflow][directory_name] = "imageflow"
+; libraries[imageflow][destination] = "libraries/imageflow"
