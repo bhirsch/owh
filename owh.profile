@@ -13,7 +13,7 @@
  */
 function owh_profile_details() {
   return array(
-    'name' => 'Drupal O',
+    'name' => 'Owh',
     'description' => 'Drupal O by StarsWithStripes.Org, '
                     .'originally modeled after the '
                     .'Obama White House website '
