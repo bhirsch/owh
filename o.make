@@ -231,4 +231,19 @@ projects[sws-org][download][url] = "git://github.com/bhirsch/sws-org.git"
 ; projects[sws-org][download][tag] = "X.X"
 
 ; Themes
+
+projects[rubik][download][type] = "get"
+projects[rubik][download][url] = "http://code.developmentseed.org/sites/code.developmentseed.org/files/fserver/rubik-6.x-3.0-beta1.tgz"
+projects[rubik][directory_name] = "rubik"
+projects[rubik][type] = "theme"
+
+projects[tao][download][type] = "get"
+projects[tao][download][url] = "http://code.developmentseed.org/sites/code.developmentseed.org/files/fserver/tao-6.x-3.1.tgz"
+projects[tao][directory_name] = "tao"
+projects[tao][type] = "theme"
+
+; projects[zen][directory_name] = "zen"
+projects[zen][version] = 1.1
+projects[zen][type] = "theme"
+
 ; Libraries
