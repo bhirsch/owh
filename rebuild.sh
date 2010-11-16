@@ -11,7 +11,7 @@ if [ -f o.make ]; then
   echo -e "\nThis command can be used to run o.make in place, or to generate"
   echo -e "a complete distribution of Drupal O.\n\nWhich would you like?"
   echo "  [1] Rebuild Drupal O in place (overwrites any changes!)."
-  echo "  [2] Build a full Drupal O distribution"
+  echo "  [2] (BROKEN) Build a full Drupal O distribution"
   echo -e "Selection: \c"
   read SELECTION
 
@@ -20,26 +20,26 @@ if [ -f o.make ]; then
     # Run o.make only.
     echo "Building Drupal O install profile..."
     rm -Rf modules/ themes/ libraries/
-    # cvs checkout -d modules -r DRUPAL-6--1 contributions/profiles/managingnews/modules
     drush -y make --working-copy --no-core --contrib-destination=. o.make
 
   elif [ $SELECTION = "2" ]; then
 
-    # Generate a complete tar.gz of Drupal + O.
+    # Generate a complete tar.gz of Pressflow Drupal + O.
     echo "Building Drupal O distribution..."
 
 MAKE=$(cat <<EOF
 core = "6.x"\n
 api = 2\n
-projects[drupal][version] = "6.19"\n
-projects[managingnews][type] = "profile"\n
-projects[managingnews][download][type] = "cvs"\n
-projects[managingnews][download][module] = "contributions/profiles/managingnews"\n
-projects[managingnews][download][revision] =
+projects[pressflow][type] = "core"
+projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92/+download/pressflow-6.19.92.tar.gz"
+projects[pressflow][download][type] = "get"
+projects[o][type] = "profile"\n
+projects[o][download][type] = "git"\n
+projects[o][download][url] = "git://github.com/bhirsch/o.git"\n
 EOF
 )
 
-    TAG=`cvs status o.make | grep "Sticky Tag:" | awk '{print $3}'`
+     TAG=`cvs status o.make | grep "Sticky Tag:" | awk '{print $3}'`
     if [ -n $TAG ]; then
       if [ $TAG = "(none)" ]; then
         TAG="HEAD"
