@@ -8,7 +8,7 @@
 #
 
 if [ -f owh.make ]; then
-  echo -e "\nThis command can be used to run o.make in place, or to generate"
+  echo -e "\nThis command can be used to run owh.make in place, or to generate"
   echo -e "a complete distribution of Drupal O.\n\nWhich would you like?"
   echo "  [1] Rebuild Drupal O in place (overwrites any changes!)."
   echo "  [2] (BROKEN) Build a full Drupal O distribution"
@@ -17,10 +17,10 @@ if [ -f owh.make ]; then
 
   if [ $SELECTION = "1" ]; then
 
-    # Run o.make only.
+    # Run owh.make only.
     echo "Building Drupal O install profile..."
     rm -Rf modules/ themes/ libraries/
-    drush -y make --working-copy --no-core --contrib-destination=. o.make
+    drush -y make --working-copy --no-core --contrib-destination=. owh.make
 
   elif [ $SELECTION = "2" ]; then
 
