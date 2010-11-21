@@ -17,9 +17,8 @@ This installation profile is composed of several different Drupal projects. Proj
   increments with major releases, that is, when APIs change
   the user interface changes. The number after the decimal
   increments with minor changes, patches, minor bug fixes, etc.
-- alpha means 'early development'. StarsWithStripes.org 
+- "Alpha" means 'early development'. StarsWithStripes.org 
   uses alpha projects in websites participating in development
-  new features or modules. 
-- beta means 'ready for early adopters in prodction websites'. 
-  The functionality seems solid. But major changes could be 
-  on the horizon. This is not a stable release.
+  of new features or modules. 
+- "Beta" means the functionality seems solid, we're using it 
+  in our sites, but the project is still in active development.
