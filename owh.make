@@ -266,5 +266,9 @@ projects[statehouse][download][url] = "git://github.com/bhirsch/statehouse.git"
 
 ; Libraries
 
+libraries[ckeditor][subdir] = "../modules/contrib/ckeditor"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.2/ckeditor_3.4.2.tar.gz"
+
 libraries[imageflow][download][type] = "get"
 libraries[imageflow][download][url] = "http://finnrudolph.de/content/ImageFlow_1.3.0.zip"
