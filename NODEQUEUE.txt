@@ -15,7 +15,8 @@ qid   title                                        size   owner
 2     Featured Posts                               6     nodequeue
 3     Featured Video                               1     nodequeue
 4     Front Page Main                              1     nodequeue
-5     Front Page Slideshow (Panoramic 4)           1     nodequeue
+5     Front Page Slideshow (Panoramic 4)           6     nodequeue
+6     Front Page Slideshow (Panoramic 3)           1     nodequeue
 
 
 table: nodequeue_queue
