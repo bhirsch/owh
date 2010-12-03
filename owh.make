@@ -273,6 +273,6 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[imageflow][download][type] = "get"
 libraries[imageflow][download][url] = "http://finnrudolph.de/content/ImageFlow_1.3.0.zip"
 
-libraries[jquery_ui][subdir] = "../modules/contrib/jquery_ui/jquery.ui"
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery.ui][subdir] = "../modules/contrib/jquery_ui"
+libraries[jquery.ui][download][type] = "get"
+libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
