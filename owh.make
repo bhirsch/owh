@@ -147,7 +147,7 @@ projects[simpletest][subdir] = "developer"
 projects[owh_features][type] = "module"
 projects[owh_features][download][type] = "git" 
 projects[owh_features][download][url] = "git://github.com/bhirsch/owh_features.git"
-projects[owh_features][download][tag] = 0.0
+; projects[owh_features][download][tag] = 0.0
 
 ; Custom 
 
