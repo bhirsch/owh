@@ -41,16 +41,16 @@ function owh_profile_modules() {
     'ping',
     // 'upload',
     'user',
-    // 'throttle', // @TODO do we need throttle? 
+    // 'throttle',
     'contact',
     // Admin
     'admin',
     // Views
-    'views', // @TODO 'litenode',
+    'views', 
     // CTools
     'ctools',
     // Context
-    'context',// @TODO ?  'context_ui', 'context_layouts', 
+    'context',
     // Date
     'date_api', 'date_timezone',
     // Features
@@ -95,17 +95,14 @@ function _owh_modules() {
     // CCK
     'content', 'nodereference', 'number', 'text', 
     'optionwidgets', 'fieldgroup', 'userreference',
-    // @TODO content_copy?
     // CCK related
     'filefield', 'imagefield',
     // Feeds
-    'feeds', // @TODO ? 'feeds_ui', 'feeds_defaults', 
+    'feeds',
     // jQuery
     'jquery_plugin', 'jquery_ui', 
     // Rotor Banner
-    'rotor', 'jcarousel', 'viewscarousel', // @TODO get rid of these? Replace w AJAX? 
-    // Lightbox2
-    // @TODO ? Lightbox2
+    'rotor', 
     // Video Filter
     'video_filter',
     // Google Maps Embed
@@ -126,11 +123,11 @@ function _owh_modules() {
     // @TODO 'color', 'designkit', 
     // VBO
     'views_bulk_operations', 'actions_permissions',
-    // FCKeditor
-    'fckeditor',
+    // CKeditor
+    'ckeditor',
     // Taxonomy Manager
     'taxonomy_manager',
-    // @TODO! Google Analytics, script for enabling and saving for all free sites
+    // Google Analytics
     'googleanalytics', 
     // Text Resize
     /**
