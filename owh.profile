@@ -148,11 +148,21 @@ function _owh_modules() {
     'subtheme', 'whitehouse_subtheme',
     'related_posts', 'addthissubtheme','user1',
     'ax3','permission',
-    // Drupal O features
-    'button_block', 'events', 'footer_navigation', 'front_page',
+    // Drupal O features modules: 
+    'button_block', 'events', 'footer_navigation', 
     'issues', 'news_clips', 'page', 'press_releases', 
     'sws_admin', 'twitter_feed', 
     'owh_default_settings', 'owh_views',
+    // Front Page
+    'addthis_frontpage',
+    'buttonblock_frontpage',
+    'featuredposts_frontpage',
+    'featuredvideo_fontpage',
+    'recentposts_frontpage',
+    'twitter_frontpage',
+    'upcomingevents_frontpage',
+    'twocolslideshow_frontpage',
+    //'whitehouseslideshow_frontpage',
   );
 }
 
