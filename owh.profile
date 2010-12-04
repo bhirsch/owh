@@ -123,8 +123,8 @@ function _owh_modules() {
     // @TODO 'color', 'designkit', 
     // VBO
     'views_bulk_operations', 'actions_permissions',
-    // CKeditor
-    'ckeditor',
+    // FCKeditor
+    'fckeditor',
     // Taxonomy Manager
     'taxonomy_manager',
     // Google Analytics
