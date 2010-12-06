@@ -123,8 +123,6 @@ function _owh_modules() {
     // @TODO 'color', 'designkit', 
     // VBO
     'views_bulk_operations', 'actions_permissions',
-    // FCKeditor
-    'fckeditor',
     // Taxonomy Manager
     'taxonomy_manager',
     // Google Analytics
@@ -143,6 +141,8 @@ function _owh_modules() {
      * and see if it's practical to build the fix into the theme. 
      */
     'text_resize', 
+    // wysiwyg
+    'wysiwyg',
     // StarsWithStripes.Org
     'sws', 'sws_fields', 'sws_mgmt',
     'subtheme', 'whitehouse_subtheme',

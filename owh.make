@@ -15,9 +15,6 @@ projects[advanced_help][version] = 1.2
 projects[cck][subdir] = "contrib"
 projects[cck][version] = 2.8
 
-projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = 1.2
-
 projects[context][subdir] = "contrib"
 projects[context][version] = 3.0
 
@@ -107,6 +104,9 @@ projects[token][version] = 1.15
 
 projects[upload_element][subdir] = "contrib"
 projects[upload_element][version] = 1.2
+
+projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][version] = 2.1
 
 projects[video_filter][subdir] = "contrib"
 projects[video_filter][version] = 2.7
@@ -266,7 +266,6 @@ projects[statehouse][download][url] = "git://github.com/bhirsch/statehouse.git"
 
 ; Libraries
 
-libraries[ckeditor][subdir] = "../modules/contrib/ckeditor"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.2/ckeditor_3.4.2.tar.gz"
 
