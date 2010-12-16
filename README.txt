@@ -1,3 +1,16 @@
+About the name "Project O" 
+--------------------------
+Project O was originally called "OWH" (pronounced "oh"), named
+after the Obama White House. The project began when StarsWithStripes.Org
+originally copied the Obama White House's website design for 
+Massachusetts State Senator Sonia Chang-Diaz. This fall We started calling 
+the project "O", or "Drupal O", because OWH was confusing. On December 15, 2010
+We received a letter from a lawyer requesting 600 Euros for use of the "Drupal"
+trademark, so now the project is in seach of a new name. Now, we're simply calling it 
+"Project O". But the installation profile lives on as owh.profile. Sorry for any
+confusion. 
+
+
 RESOURCES
 
 Soon, the official home of the project and git repository for 
