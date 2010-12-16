@@ -1,24 +1,44 @@
-MAKE-IFY OWH
-11/5/10
-owh-6.19-0.6.1
+RESOURCES
 
-Freeze owh code base here
-Master: 6.15-0.5.8
-Dev: 6.19-0.6.1
+Soon, the official home of the project and git repository for 
+this install profile will live on drupal.org. Until then visit: 
+- Download the latest version of Project O: http://starswithstripes.org/download
+- Git repo: http://github.com/starswithstripes.com/projecto
+- Report bugs here: https://github.com/starswithstripes/projecto
 
-Copy all custom projects from dev branch 6.19-0.6.1 into their own git repos
+Documentation is a work in progress. More comprehensive documentation
+is forthcoming with the beta release (projected for March 2011).
 
-Versions, Naming Conventions
-------------------------------
-This installation profile is composed of several different Drupal projects. Projects developed and maintained by StarsWithStripes.org use the following naming conventions for versions: 
-- 6.x (e.g. 6.15, 6.16) indicate the version of Drupal core
-- X.x (e.g. 1.0, 1.1, 1.2; 2.0, 2.1, 2.2) indicate the version 
-  of the O install profile. The number before the decimal
-  increments with major releases, that is, when APIs change
-  the user interface changes. The number after the decimal
-  increments with minor changes, patches, minor bug fixes, etc.
-- "Alpha" means 'early development'. StarsWithStripes.org 
-  uses alpha projects in websites participating in development
-  of new features or modules. 
-- "Beta" means the functionality seems solid, we're using it 
-  in our sites, but the project is still in active development.
+REQUIREMENTS
+
+Server/environment
+------------------
+
+Project O has been tested with the following software successfully. Your mileage
+may vary on other configurations:
+
+* PHP 5.2+
+* PHP GD extension
+* 64MB memory limit
+* MySQL 5
+* Apache
+* Apache mod_rewrite module for clean urls
+
+
+Clients
+-------
+
+Project O supports the major standards-compliant browsers, but we do most of our
+testing against:
+
+* Firefox 2+
+* Safari 3+
+* Internet Explorer 7+
+
+Internet Explorer 6 is not supported. Clients with javascript disabled are also
+not supported.
+
+
+Maintainer
+----------
+bhirsch (Bryan Hirsch), bhirsch@starswithstripes.org

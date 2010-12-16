@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-# This command expects to be run within the O profile directory. 
+# This command expects to be run within the Project O (owh) profile directory. 
 #
 # To use this command you must have `drush make`, `cvs` and `git` installed.
 #
-# Original script by Jeff Miccolis for Open Atrium.
+# Based on script by Jeff Miccolis for Open Atrium.
 #
 
 if [ -f owh.make ]; then
   echo -e "\nThis command can be used to run owh.make in place, or to generate"
   echo -e "a complete distribution of Drupal O.\n\nWhich would you like?"
   echo "  [1] Rebuild Drupal O in place (overwrites any changes!)."
-  echo "  [2] (BROKEN) Build a full Drupal O distribution"
+  echo "  [2] (BROKEN) Build a full Project O distribution"
   echo -e "Selection: \c"
   read SELECTION
 
   if [ $SELECTION = "1" ]; then
 
     # Run owh.make only.
-    echo "Building Drupal O install profile..."
+    echo "Building Project O install profile..."
     rm -Rf modules/ themes/ libraries/
     drush -y make --working-copy --no-core --contrib-destination=. owh.make
 
   elif [ $SELECTION = "2" ]; then
 
-    # Generate a complete tar.gz of Pressflow Drupal + O.
-    echo "Building Drupal O distribution..."
+    # Generate a complete tar.gz of Pressflow Drupal + Project O.
+    echo "Building O distribution..."
 
 MAKE=$(cat <<EOF
 core = "6.x"\n
@@ -39,7 +39,7 @@ projects[owh][download][url] = "git://github.com/bhirsch/owh.git"\n
 EOF
 )
 
-     TAG=`cvs status o.make | grep "Sticky Tag:" | awk '{print $3}'`
+     TAG=`cvs status owh.make | grep "Sticky Tag:" | awk '{print $3}'`
     if [ -n $TAG ]; then
       if [ $TAG = "(none)" ]; then
         TAG="HEAD"
